@@ -8,8 +8,9 @@ AudioSample woohoo;
 void setup() {
   
   //Find a Where's Waldo picture and drop it into this sketch.     
-  PImage waldo = loadImage("waldo.jpg"); // Change this to match your file name.
-  size(500, 500); // Change this to match the size of your waldo picture
+  PImage waldo = loadImage("indexx.jpeg"); // Change this to match your file name.
+  size(300, 250); // Change this to match the size of your waldo picture
+  waldo.resize(300,250);
   image(waldo, 0, 0);
 
   /*
@@ -20,7 +21,7 @@ void setup() {
 
 void draw() {
       // Use this print statement to find out the coordinates of Waldo when you press the mouse
-      // println("X: " + mouseX + " Y: " + mouseY); 
+      println("X: " + mouseX + " Y: " + mouseY); 
 
       // If the mouse is on Waldo, print “Waldo found!”
 
