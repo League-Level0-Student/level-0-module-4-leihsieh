@@ -12,7 +12,6 @@ public class StringMethods {
 		//    HINT: .charAt
 
 		char third = s.charAt(2);
-		
 		System.out.println(third);
 		
 		// 3. Print the length of your String to the console.
